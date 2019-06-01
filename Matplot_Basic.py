@@ -3,7 +3,7 @@
 
 # In[80]:
 
-
+#Import needed package
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -11,7 +11,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 # In[59]:
 
-
+#initialize the lists
 apl_price=[93.95,112.15,104.05,144.85,169.49]
 ms_price=[39.95,50.57,57.05,69.85,94.49]
 year=[2014,2015,2016,2017,2018]
@@ -19,7 +19,7 @@ year=[2014,2015,2016,2017,2018]
 
 # In[71]:
 
-
+#Plotting data
 plt.plot(year,apl_price,':k')
 plt.plot(year,ms_price,'og')
 plt.xlabel('year')
@@ -29,7 +29,7 @@ plt.show()
 
 # In[84]:
 
-
+#adding graphs to figure
 fig_1=plt.figure(1,figsize=(20,4.8))
 chart_1=fig_1.add_subplot(121)
 chart_2=fig_1.add_subplot(122)
