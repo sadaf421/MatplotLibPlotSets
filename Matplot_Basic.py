@@ -30,7 +30,7 @@ plt.show()
 # In[84]:
 
 #adding graphs to figure
-fig_1=plt.figure(1,figsize=(20,4.8))
+fig_1=plt.figure(1,figsize=(10,4.8))
 chart_1=fig_1.add_subplot(121)
 chart_2=fig_1.add_subplot(122)
 
