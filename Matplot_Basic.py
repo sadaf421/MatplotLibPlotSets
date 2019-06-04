@@ -67,7 +67,7 @@ empty_dcit
 import numpy as np
 ar=np.array([1,2,3])
 ar1=np.array([1,2,3])
-ar=np.hstack([ar,ar1])
+ar=np.vstack([ar,ar1])
 ar
 
 
